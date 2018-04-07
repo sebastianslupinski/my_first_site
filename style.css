@@ -95,7 +95,7 @@ hr {
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
-}
+}   
 
 input, select {
     vertical-align:middle;
@@ -110,6 +110,17 @@ div h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(40, 63, 63);
     text-align: center;
+}
+
+.ja {
+    width: 290px;
+    height: 250px;
+    background-image: url(ja.png);
+    background-size: contain;
+}
+
+style {
+    background-color: rgb(220, 200, 247);
 }
 
 .porsche959 {
@@ -158,3 +169,21 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
+.wrapper {
+    margin: 0;
+    width: 1000px;
+}
+
+.myphoto {
+    width: 290px;
+    height: 250px;
+    background-image: url(ja.png);
+    background-size: contain;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+}
+

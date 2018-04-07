@@ -7,35 +7,65 @@
     </head>
 
         <body>
-            <!-- <div>
-                <header>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="https://codecool.instructure.com/courses/65/assignments/3285?module_item_id=21269">Assignment</a></li>
-                            <li><a href="index-contact.html">Contact</a></li>
-                            <li><a href="about.asp">About</a></li>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://codecool.instructure.com/courses/65/assignments/3285?module_item_id=21269">Assignment</a></li>
+                        <li><a href="index-contact.html">Contact</a></li>
+                        <li><a href="index-aboutme.html">About me</a></li>
                         </ul>
                     </nav>
                 </header>
-            </div>
 
-            <div>
-                <h1>History of porsche</h1>
-                <p>The content of the document......</p>
-            </div>
+            <style>
+                input[type=text], select {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+                
+                input[type=submit] {
+                    width: 100%;
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                
+                input[type=submit]:hover {
+                    background-color: #45a049;
+                }
+                
+                div {
+                    border-radius: 5px;
+                    background-color: rgb(220, 200, 247);
+                    padding: 20px;
+                }
+            </style>
 
-        <div class="content">
-            <p>Model 356 jest to pierwszy samochód marki Porsche. <br>
-                Jednakże przed wojną biuro konstrukcyjne Porsche stworzyło projekt Porsche 114 z umieszczonym <br>
-                centralnie silnikiem <br>
-                typu V-10 chłodzonym wodą, który planowało wdrożyć do produkcji seryjnej po raz pierwszy pod marką Porsche.<br>
-                Pomysł storpedowały władze III Rzeszy – więc projekt ten ostatecznie przystosowano <br>
-                do podzespołów seryjnego VW Garbusa. <br>
-                Tak powstał w 3 egzemplarzach model z aerodynamiczną karoserią wykonaną<br>
-                z aluminium – znany jako Porsche Type 64. Na bazie tego projektu po II wojnie światowej <br>
-                powstało Porsche 356.</p>
-        </div> -->
+    <div>
+        <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+        <label for="lname">E-Mail</label>
+        <input type="text" id="lname" name="email" placeholder="Your e-mail">
+
+        <textarea rows="4" cols="50">
+            Enter your message here.
+        </textarea>
+        
+        <input type="submit" value="Send">
+        </form>
+    </div>
     </body>
 
     <div>
